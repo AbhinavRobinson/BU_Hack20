@@ -643,6 +643,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+@media screen and (max-width: 650px) {
+  #intro {
+    background-size: 300% auto;
+  }
+}
+
+@media screen and (max-width: 430px){
+  #intro{
+    background-size: 400% auto;
+  }
+}
+
 #intro:before {
   content: "";
   background: rgba(98, 0, 255, 0.377);

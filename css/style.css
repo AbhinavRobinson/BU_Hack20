@@ -146,6 +146,11 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 
+.scrollto img{
+  transform: translateY(-30.5px);             /*   CHANGE LATER   */
+  min-height: 100px;
+}
+
 #header {
   height: 90px;
   padding: 25px 0;
@@ -777,7 +782,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #F2E74B;
+  border: 2px solid rgb(241, 231, 86);
 }
 
 #intro .about-btn:hover {
@@ -852,14 +857,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-  font-size: 14px;
+  font-size: 16px;
+  /* font-weight: lighter; */
   margin-bottom: 20px;
-  color: #1E1E1E;
+  color: #1E1E1E;  
 }
 
-#about a{
-  color: #F2C849;
+#about #c1{
+  color: #F4AB1C;
 }
+
+
+#about #c2{
+  color: #BB0027;
+}
+
+
+#about #c3{
+  color: #38B6FF;
+}
+
+
+#about #c4{
+  color: #57C182;
+}
+
+/* DARK SCHEME #FFD150  #EF1C41 #5271FF #138808  */
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/

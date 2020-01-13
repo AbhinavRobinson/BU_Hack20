@@ -637,7 +637,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100vw;
   height: 100vh;
   background: url(../img/intro-bg.svg) no-repeat center center fixed;
-  background-size: 250% auto;
+  background-size: 200% auto;
   background-attachment: fixed;
   overflow: hidden;
   position: relative;
